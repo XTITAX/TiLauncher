@@ -19,6 +19,9 @@ setup(
         'pillow',
         'uuid',
     ],
+    package_data={
+        'TiLauncher': ['minecraft.png'],
+    },
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
