@@ -7,7 +7,7 @@ TiLauncher - это библиотека для запуска игры Майн
 Вы можете установить TiLauncher с помощью pip:
 
 ```bath
-pip install git+https://github.com/XTITAX/TiLauncher.git
+python -m pip install git+https://github.com/XTITAX/TiLauncher.git
 ```
 
 ## Использование
@@ -17,11 +17,11 @@ pip install git+https://github.com/XTITAX/TiLauncher.git
 ```python
 import TiLauncher
 
-# Запустить графический лаунчер (Скачается версия майнкрафта в папку C:\Users\Ваш пользователь\AppData\Roaming\.TiLauncher)
+# Запустить графический лаунчер (Скачается версия майнкрафта в папку C:\Users\Ваш пользователь\AppData\Roaming\.TiLauncher (Если её нету))
 TiLauncher.StartL()
 
 # Запустить консольный лаунчер
-TiLauncher.StartC()
+TiLauncher.StartC() (Скачается версия майнкрафта в папку C:\Users\Ваш пользователь\AppData\Roaming\.TiLauncher (Если её нету))
 
 # Получить справку
 TiLauncher.Help()
