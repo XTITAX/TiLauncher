@@ -6,7 +6,7 @@ TiLauncher - это библиотека для запуска игры Майн
 
 Вы можете установить TiLauncher с помощью pip:
 
-pip install TiLauncher
+pip install git+
 
 
 ## Использование
