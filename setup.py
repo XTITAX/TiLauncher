@@ -18,7 +18,6 @@ setup(
         'minecraft_launcher_lib',
         'pillow',
         'uuid',
-        'time',
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
