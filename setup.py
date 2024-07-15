@@ -17,7 +17,6 @@ setup(
     install_requires=[
         'minecraft_launcher_lib',
         'pillow',
-        'subprocess',
         'os',
         'uuid',
         'json',
