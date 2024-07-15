@@ -16,7 +16,6 @@ setup(
     include_package_data=True,
     install_requires=[
         'minecraft_launcher_lib',
-        'tkinter',
         'pillow',
         'subprocess',
         'os',
