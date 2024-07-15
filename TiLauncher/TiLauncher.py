@@ -109,11 +109,6 @@ def StartL():
 def StartC():
     minecraft_directory = minecraft_launcher_lib.utils.get_minecraft_directory().replace('minecraft', 'TiLauncher')
     def install_minecraft(version):
-        #callback = {
-        #    "setStatus": set_status,
-        #    "setProgress": set_progress,
-        #    "setMax": set_max
-        #}
         minecraft_launcher_lib.install.install_minecraft_version(versionid=version, minecraft_directory=minecraft_directory)#, callback=callback)
 
     version = input("Введите версию майнкрафта: ")
