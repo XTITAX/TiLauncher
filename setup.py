@@ -8,7 +8,7 @@ setup(
     version='1.0',
     author='XTITAX',
     author_email='xtitax@yandex.ru',
-    description='A short description of your package',
+    description='Библиотека лаунчера для Майнкрафта',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/XTITAX/TiLauncher',
