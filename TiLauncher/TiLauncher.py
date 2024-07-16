@@ -108,7 +108,7 @@ def StartL():
 def StartC():
     minecraft_directory = minecraft_launcher_lib.utils.get_minecraft_directory().replace('minecraft', 'TiLauncher')
     def install_minecraft(version):
-        minecraft_launcher_lib.install.install_minecraft_version(versionid=version, minecraft_directory=minecraft_directory)#, callback=callback)
+        minecraft_launcher_lib.install.install_minecraft_version(versionid=version, minecraft_directory=minecraft_directory)
 
     version = input("Введите версию майнкрафта: ")
     username = input("Введите своё имя: ")
