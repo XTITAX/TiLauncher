@@ -17,10 +17,10 @@ python -m pip install git+https://github.com/XTITAX/TiLauncher.git
 ```python
 import TiLauncher
 
-# Запустить графический лаунчер (Скачается версия майнкрафта в папку C:\Users\Ваш пользователь\AppData\Roaming\.TiLauncher (Если её нету))
+# Запустить графический лаунчер (Скачается версия майнкрафта в папку C:\Users\Ваш пользователь\AppData\Roaming\.TiLauncher (Если этой версии нету))
 TiLauncher.StartL()
 
-# Запустить консольный лаунчер (Скачается версия майнкрафта в папку C:\Users\Ваш пользователь\AppData\Roaming\.TiLauncher (Если её нету))
+# Запустить консольный лаунчер (Скачается версия майнкрафта в папку C:\Users\Ваш пользователь\AppData\Roaming\.TiLauncher (Если этой версии нету))
 TiLauncher.StartC()
 
 # Получить справку
