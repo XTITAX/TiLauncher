@@ -20,7 +20,7 @@ setup(
         'uuid',
     ],
     package_data={
-        'TiLauncher': ['minecraft.png'],
+        'TiLauncher': ['minecraft.png', '.gitignore'],
     },
     classifiers=[
         'Development Status :: 3 - Alpha',
