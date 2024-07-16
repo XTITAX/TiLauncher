@@ -135,8 +135,6 @@ def StartC():
 
             minecraft_command = minecraft_launcher_lib.command.get_minecraft_command(version=version, minecraft_directory=minecraft_directory, options=options)
             subprocess.Popen(minecraft_command)
-            
-            set_status("Игра запущена!")
 
         thread = threading.Thread(target=installation_thread)
         thread.start()
