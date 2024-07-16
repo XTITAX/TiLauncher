@@ -92,7 +92,6 @@ def StartL():
                 }
 
                 minecraft_command = minecraft_launcher_lib.command.get_minecraft_command(version=version, minecraft_directory=minecraft_directory, options=options)
-                print(minecraft_command)
                 subprocess.Popen(minecraft_command)
                 
                 launch_button.config(state='normal')
@@ -135,7 +134,6 @@ def StartC():
             }
 
             minecraft_command = minecraft_launcher_lib.command.get_minecraft_command(version=version, minecraft_directory=minecraft_directory, options=options)
-            print(minecraft_command)
             subprocess.Popen(minecraft_command)
             
             set_status("Игра запущена!")
